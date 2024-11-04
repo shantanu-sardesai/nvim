@@ -22,3 +22,6 @@ map("n", "<leader>Y", '"+Y')
 -- delete without overwritin the paste register.
 map("n", "<leader>d", '"_d')
 map("v", "<leader>d", '"_d')
+
+-- disabling editor tab switch keybinding to prevent clojure execution keybinding overshadowing.
+map("n", "<leader>e", "<Nop>", { noremap = true, silent = true })
