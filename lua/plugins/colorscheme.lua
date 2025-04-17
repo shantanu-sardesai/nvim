@@ -21,13 +21,13 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "okai",
+      -- colorscheme = "okai",
       -- colorscheme = "github_dark_dimmed",
       -- colorscheme = "tokyodark",
       -- colorscheme = "catppuccin-macchiato",
       -- colorscheme = "kanagawa",
       -- colorscheme = "ayu",
-      -- colorscheme = "darcula",
+      colorscheme = "darcula",
       -- colorscheme = "bamboo",
       -- colorscheme = "nordic",
       --
