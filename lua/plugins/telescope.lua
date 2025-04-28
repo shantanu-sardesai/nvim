@@ -7,8 +7,8 @@ return {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     -- "danielfalk/smart-open.nvim",
-    "kkharji/sqlite.lua",
-    "nvim-telescope/telescope-fzy-native.nvim",
+    -- "kkharji/sqlite.lua",
+    -- "nvim-telescope/telescope-fzy-native.nvim",
     "willthbill/opener.nvim",
   },
   config = function()

@@ -26,13 +26,14 @@ return {
       -- colorscheme = "tokyodark",
       -- colorscheme = "catppuccin-macchiato",
       -- colorscheme = "kanagawa",
-      -- colorscheme = "ayu",
-      colorscheme = "darcula",
+      colorscheme = "ayu",
+      -- colorscheme = "darcula",
       -- colorscheme = "bamboo",
       -- colorscheme = "nordic",
       --
       -- Light themes
-      -- colorscheme = "catppuccin-latte"
+      -- colorscheme = "catppuccin-latte",
+      -- colorscheme = "github_light",
     },
   },
 }

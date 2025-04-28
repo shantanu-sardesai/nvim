@@ -2,7 +2,7 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-local map = LazyVim.safe_keymap_set
+local map = vim.keymap.set
 
 -- center the cursor on the half page jumps.
 map("n", "<C-d>", "<C-d>zz")
@@ -24,4 +24,4 @@ map("n", "<leader>d", '"_d')
 map("v", "<leader>d", '"_d')
 
 -- disabling editor tab switch keybinding to prevent clojure execution keybinding overshadowing.
-map("n", "<leader>e", "<Nop>", { noremap = true, silent = true })
+-- map("n", "<leader>e", "<Nop>", { noremap = true, silent = true })
